@@ -10,24 +10,31 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 100px;
-    border: 5px;
+    border: 2px solid rgb(77, 77, 77);
     border-color: rgb(168, 168, 168);
     border-radius: 15px;
     
   }
-  #image{
-    border-radius: 20px;    
+  .image{
+    border-radius: 20px;
+    width: auto;    
   }
 
-  h1, p{
+  h1{ 
     padding-left: 15px;
-    
+  }
+  
+  p{
+    padding-left: 15px;
+    width: 200px;
   }
 
   
 
   footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    color: rgb(77, 77, 77)72, 172, 172);
+    text-align: center;
   }
