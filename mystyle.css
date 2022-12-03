@@ -13,11 +13,18 @@ body {
     border: 2px solid rgb(77, 77, 77);
     border-color: rgb(168, 168, 168);
     border-radius: 15px;
-    
   }
   .image{
+    border-radius: 20px;   
+  }
+
+  .button{
+    background-color: rgb(199, 226, 253);
+    border: none;
+    padding: 15px 30px;
     border-radius: 20px;
-    width: auto;    
+    color:blue;
+    cursor: pointer;
   }
 
   h1{ 
@@ -26,9 +33,10 @@ body {
   
   p{
     padding-left: 15px;
-    width: 200px;
+    width: 400px;
+    font-size: 20px;
   }
-  
+
 
   footer{
     position: fixed;
